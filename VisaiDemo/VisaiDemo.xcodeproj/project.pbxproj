@@ -1,0 +1,263 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DD4EA4014F2A5DB00B57155 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD4EA3F14F2A5DB00B57155 /* UIKit.framework */; };
+		0DD4EA4214F2A5DB00B57155 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD4EA4114F2A5DB00B57155 /* Foundation.framework */; };
+		0DD4EA4414F2A5DB00B57155 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD4EA4314F2A5DB00B57155 /* CoreGraphics.framework */; };
+		0DD4EA4A14F2A5DB00B57155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4EA4814F2A5DB00B57155 /* InfoPlist.strings */; };
+		0DD4EA4C14F2A5DB00B57155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA4B14F2A5DB00B57155 /* main.m */; };
+		0DD4EA5014F2A5DB00B57155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA4F14F2A5DB00B57155 /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DD4EA3B14F2A5DB00B57155 /* VisaiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisaiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DD4EA3F14F2A5DB00B57155 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0DD4EA4114F2A5DB00B57155 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0DD4EA4314F2A5DB00B57155 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0DD4EA4714F2A5DB00B57155 /* VisaiDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VisaiDemo-Info.plist"; sourceTree = "<group>"; };
+		0DD4EA4914F2A5DB00B57155 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0DD4EA4B14F2A5DB00B57155 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DD4EA4D14F2A5DB00B57155 /* VisaiDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VisaiDemo-Prefix.pch"; sourceTree = "<group>"; };
+		0DD4EA4E14F2A5DB00B57155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DD4EA4F14F2A5DB00B57155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DD4EA3814F2A5DB00B57155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4EA4014F2A5DB00B57155 /* UIKit.framework in Frameworks */,
+				0DD4EA4214F2A5DB00B57155 /* Foundation.framework in Frameworks */,
+				0DD4EA4414F2A5DB00B57155 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD4EA3014F2A5DB00B57155 = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA4514F2A5DB00B57155 /* VisaiDemo */,
+				0DD4EA3E14F2A5DB00B57155 /* Frameworks */,
+				0DD4EA3C14F2A5DB00B57155 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DD4EA3C14F2A5DB00B57155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA3B14F2A5DB00B57155 /* VisaiDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DD4EA3E14F2A5DB00B57155 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA3F14F2A5DB00B57155 /* UIKit.framework */,
+				0DD4EA4114F2A5DB00B57155 /* Foundation.framework */,
+				0DD4EA4314F2A5DB00B57155 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0DD4EA4514F2A5DB00B57155 /* VisaiDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA4E14F2A5DB00B57155 /* AppDelegate.h */,
+				0DD4EA4F14F2A5DB00B57155 /* AppDelegate.m */,
+				0DD4EA4614F2A5DB00B57155 /* Supporting Files */,
+			);
+			path = VisaiDemo;
+			sourceTree = "<group>";
+		};
+		0DD4EA4614F2A5DB00B57155 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA4714F2A5DB00B57155 /* VisaiDemo-Info.plist */,
+				0DD4EA4814F2A5DB00B57155 /* InfoPlist.strings */,
+				0DD4EA4B14F2A5DB00B57155 /* main.m */,
+				0DD4EA4D14F2A5DB00B57155 /* VisaiDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DD4EA3A14F2A5DB00B57155 /* VisaiDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DD4EA5314F2A5DB00B57155 /* Build configuration list for PBXNativeTarget "VisaiDemo" */;
+			buildPhases = (
+				0DD4EA3714F2A5DB00B57155 /* Sources */,
+				0DD4EA3814F2A5DB00B57155 /* Frameworks */,
+				0DD4EA3914F2A5DB00B57155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisaiDemo;
+			productName = VisaiDemo;
+			productReference = 0DD4EA3B14F2A5DB00B57155 /* VisaiDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DD4EA3214F2A5DB00B57155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 0DD4EA3514F2A5DB00B57155 /* Build configuration list for PBXProject "VisaiDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0DD4EA3014F2A5DB00B57155;
+			productRefGroup = 0DD4EA3C14F2A5DB00B57155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DD4EA3A14F2A5DB00B57155 /* VisaiDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DD4EA3914F2A5DB00B57155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4EA4A14F2A5DB00B57155 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DD4EA3714F2A5DB00B57155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DD4EA4C14F2A5DB00B57155 /* main.m in Sources */,
+				0DD4EA5014F2A5DB00B57155 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DD4EA4814F2A5DB00B57155 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DD4EA4914F2A5DB00B57155 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DD4EA5114F2A5DB00B57155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DD4EA5214F2A5DB00B57155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DD4EA5414F2A5DB00B57155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VisaiDemo/VisaiDemo-Prefix.pch";
+				INFOPLIST_FILE = "VisaiDemo/VisaiDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0DD4EA5514F2A5DB00B57155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VisaiDemo/VisaiDemo-Prefix.pch";
+				INFOPLIST_FILE = "VisaiDemo/VisaiDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DD4EA3514F2A5DB00B57155 /* Build configuration list for PBXProject "VisaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4EA5114F2A5DB00B57155 /* Debug */,
+				0DD4EA5214F2A5DB00B57155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DD4EA5314F2A5DB00B57155 /* Build configuration list for PBXNativeTarget "VisaiDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DD4EA5414F2A5DB00B57155 /* Debug */,
+				0DD4EA5514F2A5DB00B57155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DD4EA3214F2A5DB00B57155 /* Project object */;
+}
