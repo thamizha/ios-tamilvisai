@@ -13,6 +13,13 @@
 		0DD4EA4A14F2A5DB00B57155 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4EA4814F2A5DB00B57155 /* InfoPlist.strings */; };
 		0DD4EA4C14F2A5DB00B57155 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA4B14F2A5DB00B57155 /* main.m */; };
 		0DD4EA5014F2A5DB00B57155 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA4F14F2A5DB00B57155 /* AppDelegate.m */; };
+		0DD4EA5914F2AA1700B57155 /* UnicodeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA5814F2AA1700B57155 /* UnicodeHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0DD4EA5C14F2AA3700B57155 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA5B14F2AA3700B57155 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		0DD4EA5E14F2AAAD00B57155 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD4EA5D14F2AAAD00B57155 /* libicucore.A.dylib */; };
+		0DD4EA6414F2AD4B00B57155 /* LanguageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA6214F2AD4B00B57155 /* LanguageList.m */; };
+		0DD4EA6514F2AD4B00B57155 /* LanguageList.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4EA6314F2AD4B00B57155 /* LanguageList.xib */; };
+		0DD4EA6914F2B1D500B57155 /* EditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DD4EA6714F2B1D500B57155 /* EditorViewController.m */; };
+		0DD4EA6A14F2B1D500B57155 /* EditorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0DD4EA6814F2B1D500B57155 /* EditorViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,17 @@
 		0DD4EA4D14F2A5DB00B57155 /* VisaiDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VisaiDemo-Prefix.pch"; sourceTree = "<group>"; };
 		0DD4EA4E14F2A5DB00B57155 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0DD4EA4F14F2A5DB00B57155 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DD4EA5714F2AA1700B57155 /* UnicodeHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnicodeHelper.h; sourceTree = "<group>"; };
+		0DD4EA5814F2AA1700B57155 /* UnicodeHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnicodeHelper.m; sourceTree = "<group>"; };
+		0DD4EA5A14F2AA3700B57155 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		0DD4EA5B14F2AA3700B57155 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		0DD4EA5D14F2AAAD00B57155 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = usr/lib/libicucore.A.dylib; sourceTree = SDKROOT; };
+		0DD4EA6114F2AD4B00B57155 /* LanguageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LanguageList.h; sourceTree = "<group>"; };
+		0DD4EA6214F2AD4B00B57155 /* LanguageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LanguageList.m; sourceTree = "<group>"; };
+		0DD4EA6314F2AD4B00B57155 /* LanguageList.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LanguageList.xib; sourceTree = "<group>"; };
+		0DD4EA6614F2B1D500B57155 /* EditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorViewController.h; sourceTree = "<group>"; };
+		0DD4EA6714F2B1D500B57155 /* EditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorViewController.m; sourceTree = "<group>"; };
+		0DD4EA6814F2B1D500B57155 /* EditorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditorViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DD4EA5E14F2AAAD00B57155 /* libicucore.A.dylib in Frameworks */,
 				0DD4EA4014F2A5DB00B57155 /* UIKit.framework in Frameworks */,
 				0DD4EA4214F2A5DB00B57155 /* Foundation.framework in Frameworks */,
 				0DD4EA4414F2A5DB00B57155 /* CoreGraphics.framework in Frameworks */,
@@ -45,6 +64,7 @@
 		0DD4EA3014F2A5DB00B57155 = {
 			isa = PBXGroup;
 			children = (
+				0DD4EA5D14F2AAAD00B57155 /* libicucore.A.dylib */,
 				0DD4EA4514F2A5DB00B57155 /* VisaiDemo */,
 				0DD4EA3E14F2A5DB00B57155 /* Frameworks */,
 				0DD4EA3C14F2A5DB00B57155 /* Products */,
@@ -72,6 +92,9 @@
 		0DD4EA4514F2A5DB00B57155 /* VisaiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0DD4EA6014F2AD2500B57155 /* Controllers */,
+				0DD4EA5F14F2ACF600B57155 /* RegexKit */,
+				0DD4EA5614F2A9E700B57155 /* Visai */,
 				0DD4EA4E14F2A5DB00B57155 /* AppDelegate.h */,
 				0DD4EA4F14F2A5DB00B57155 /* AppDelegate.m */,
 				0DD4EA4614F2A5DB00B57155 /* Supporting Files */,
@@ -88,6 +111,37 @@
 				0DD4EA4D14F2A5DB00B57155 /* VisaiDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0DD4EA5614F2A9E700B57155 /* Visai */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA5714F2AA1700B57155 /* UnicodeHelper.h */,
+				0DD4EA5814F2AA1700B57155 /* UnicodeHelper.m */,
+			);
+			name = Visai;
+			sourceTree = "<group>";
+		};
+		0DD4EA5F14F2ACF600B57155 /* RegexKit */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA5A14F2AA3700B57155 /* RegexKitLite.h */,
+				0DD4EA5B14F2AA3700B57155 /* RegexKitLite.m */,
+			);
+			name = RegexKit;
+			sourceTree = "<group>";
+		};
+		0DD4EA6014F2AD2500B57155 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0DD4EA6114F2AD4B00B57155 /* LanguageList.h */,
+				0DD4EA6214F2AD4B00B57155 /* LanguageList.m */,
+				0DD4EA6314F2AD4B00B57155 /* LanguageList.xib */,
+				0DD4EA6614F2B1D500B57155 /* EditorViewController.h */,
+				0DD4EA6714F2B1D500B57155 /* EditorViewController.m */,
+				0DD4EA6814F2B1D500B57155 /* EditorViewController.xib */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +195,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DD4EA4A14F2A5DB00B57155 /* InfoPlist.strings in Resources */,
+				0DD4EA6514F2AD4B00B57155 /* LanguageList.xib in Resources */,
+				0DD4EA6A14F2B1D500B57155 /* EditorViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +209,10 @@
 			files = (
 				0DD4EA4C14F2A5DB00B57155 /* main.m in Sources */,
 				0DD4EA5014F2A5DB00B57155 /* AppDelegate.m in Sources */,
+				0DD4EA5914F2AA1700B57155 /* UnicodeHelper.m in Sources */,
+				0DD4EA5C14F2AA3700B57155 /* RegexKitLite.m in Sources */,
+				0DD4EA6414F2AD4B00B57155 /* LanguageList.m in Sources */,
+				0DD4EA6914F2B1D500B57155 /* EditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
